@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quote Page</title>
+</head>
+<body>
+
+
+  <h1>Quote Focused HTML Page</h1>
+  <hr>
+
+  <h2>Introduction</h2>
+  <p>
+    This page demonstrates the use of <strong>text formatting</strong>, <em>inline tags</em>,
+    and <mark>highlighted text</mark> to present a meaningful quote attractively.
+  </p>
+
+  <h3>Featured Quote</h3>
+  <blockquote>
+    <p>
+      “The measure of intelligence is the ability to change.”
+    </p>
+    <footer>— <cite>Albert Einstein</cite></footer>
+  </blockquote>
+
+  <h3>Edited Example</h3>
+  <p>
+    Original: <del>The measure of intelligence</del>
+    <ins>Adaptability</ins> is the key to <mark>growth</mark>.
+  </p>
+
+  <h3>Inline Tag Examples</h3>
+  <p>
+    <strong>
+        Strong
+    </strong>
+    text shows importance.
+    <br>
+    <em>Emphasized
+
+    </em> text adds feeling.
+    <br>
+    <u>
+        Underlined
+
+    </u> for focus.
+    <br>
+    <small>
+        Small text for notes.
+    </small>
+    <br>
+    Chemical formula example: H
+    <sub>2
+
+    </sub>O
+    <br>
+    Ordinal example: 21<sup>st</sup> century
+  </p>
+
+  <h3>
+    List Customization
+</h3>
+  <ol type="A">
+    <li>
+        Change the quote text and author
+
+    </li>
+    <li>
+        Highlight different words using
+         <code>&lt;mark&gt;</code></li>
+    <li>Use <code>&lt;del&gt;</code> and <code>&lt;ins&gt;</code> to show edits</li>
+    <li>Apply inline formatting tags creatively
+      <ol type="1">
+        <li>Bold, italic, underline</li>
+        <li>Subscript and superscript</li>
+        <li>Marked or highlighted text</li>
+      </ol>
+    </li>
+  </ol>
+
+  <hr>
+  <p><strong>Created by:</strong> Your Name</p>
+  <p>File saved as <code>index.html</code></p>
+</body>
+</html>
