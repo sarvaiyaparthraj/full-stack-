@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #fafafa;
+}
+
+.title {
+    font-size: 32px;
+    margin-top: 30px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.member {
+    width: 260px;
+    padding: 20px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    background: white;
+}
+
+.member img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.member h3 {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.role {
+    font-size: 14px;
+    color: #333;
+}
