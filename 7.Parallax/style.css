@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+
+    height: 600;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
+.background{
+    background-image: url("https://images.pexels.com/photos/1662145/pexels-photo-1662145.jpeg?cs=srgb&dl=pexels-fotios-photos-1662145.jpg&fm=jpg");
+    background-attachment: fixed;
+    height: 800px;
+    
+}
