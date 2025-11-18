@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sticky Notes Dashboard - Lab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="frame">
+
+
+    <div class="meta">
+      <strong>Output:</strong><br>
+      Video Link: <a href="#" class="video-link">Link</a>
+    </div>
+
+
+    <div class="dashboard">
+
+     
+      <header class="topbar">
+        <div class="topbar-inner">Sticky Notes Dashboard</div>
+      </header>
+
+      <div class="main-area">
+
+        
+        <aside class="sidebar" aria-labelledby="cats">
+          <h3 id="cats">Categories</h3>
+          <ul class="cat-list">
+            <li>Personal</li>
+            <li>Work</li>
+            <li>Ideas</li>
+            <li>Reminders</li>
+          </ul>
+        </aside>
+
+      
+        <section class="board" aria-label="Notes board">
+          <div class="board-inner">
+
+           
+            <div class="notes-row">
+
+              <div class="note note--yellow">
+                <div class="pin" aria-hidden="true">📌</div>
+                <h4>Meeting Notes</h4>
+                <p>Project deadline is next Monday. Final review due Friday.</p>
+              </div>
+
+              <div class="note note--green">
+                <div class="pin">📌</div>
+                <h4>Grocery List</h4>
+                <p>Milk, Eggs, Bread, Coffee, Fruits</p>
+              </div>
+
+              <div class="note note--orange">
+                <div class="pin">📌</div>
+                <h4>App Idea</h4>
+                <p>Reminder app with voice and smart-sync. Offline sync too!</p>
+              </div>
+
+              <div class="note note--blue">
+                <div class="pin">📌</div>
+                <h4>Today's Goals</h4>
+                <ol>
+                  <li>Finish UI</li>
+                  <li>Deploy Demo</li>
+                  <li>Send Feedback</li>
+                </ol>
+              </div>
+
+            </div>
+            
+            
+            <div class="board-actions">
+              <button class="btn btn--small">Add Note</button>
+              <button class="btn btn--small btn--danger">Delete All</button>
+            </div>
+
+          </div>
+        </section>
+
+      </div> 
+
+    </div> 
+  </div> 
+</body>
+</html>
